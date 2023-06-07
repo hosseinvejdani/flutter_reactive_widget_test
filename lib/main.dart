@@ -20,7 +20,7 @@ class MainApp extends StatelessWidget {
           children: [
             FloatingActionButton(
               onPressed: () => cont.incSpeed(5),
-              child: const Text('add 1'),
+              child: const Text('inc'),
             ),
           ],
         ),
